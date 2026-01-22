@@ -1,0 +1,35 @@
+============================================================
+EXPECTED DANGER (xD) ANALYSIS REPORT
+============================================================
+
+PROJECT REQUIREMENTS SUMMARY:
+----------------------------------------
+1. Danger passes identified: passes within 15s of shots 
+2. Logistic regression with non-linear features for shot probability 
+3. Linear regression for goal probability 
+4. Expected Danger (xD) = P(shot) × P(goal) 
+5. Players ranked by xD per 90 vs danger passes per 90 by position 
+
+KEY FINDINGS:
+----------------------------------------
+
+FORWARD ANALYSIS:
+  Rank correlation: 0.79
+  W. Alves: Higher xD rank (1) than danger pass rank (130) - creates high-quality chances
+  M. Mane: Higher xD rank (7) than danger pass rank (130) - creates high-quality chances
+
+MIDFIELDER ANALYSIS:
+  Rank correlation: 0.80
+  H. Armstrong: Higher xD rank (2) than danger pass rank (158) - creates high-quality chances
+  O. Aluko: Higher xD rank (12) than danger pass rank (158) - creates high-quality chances
+
+DEFENDER ANALYSIS:
+  Rank correlation: 0.87
+  J. Meghoma: Higher xD rank (14) than danger pass rank (178) - creates high-quality chances
+  M. Targett: Higher xD rank (15) than danger pass rank (178) - creates high-quality chances
+
+GOALKEEPER ANALYSIS:
+  Rank correlation: -0.17
+  Note: Low correlation suggests xD captures different aspects than just danger pass count
+  V. Jaroš: Higher xD rank (1) than danger pass rank (40) - creates high-quality chances
+  Neto: Higher xD rank (6) than danger pass rank (40) - creates high-quality chances
